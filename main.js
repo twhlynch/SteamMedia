@@ -24,6 +24,11 @@ const aspectRatios = [
   [920, 430], // Library Header Capsule
   [800, 450], // Event Cover
   [1920, 622], // Event Header
+  [2560, 1440], // meta: Landscape
+  [1440, 1440], // meta: Square
+  [1008, 1440], // meta: Portrait
+  [3000, 900], // meta: Hero cover
+  [512, 512], // meta: Icon
 ].sort((a, b) => a[0] / a[1] - b[0] / b[1]);
 
 let logoScales = Array(aspectRatios.length).fill(0.6);
